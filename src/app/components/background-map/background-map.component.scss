@@ -1,0 +1,22 @@
+$map-color: green;
+
+.map-area {
+  border: 4px solid red;
+  background-repeat: no-repeat;
+}
+
+.map-left {
+  border-left-color: $map-color;
+}
+
+.map-right {
+  border-right-color: $map-color;
+}
+
+.map-top {
+  border-top-color: $map-color;
+}
+
+.map-bottom {
+  border-bottom-color: $map-color;
+}

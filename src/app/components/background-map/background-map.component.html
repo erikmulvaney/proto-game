@@ -1,0 +1,10 @@
+<div
+  class="map-area"
+  [ngStyle]="{
+    'height.px': map.height() + 8,
+    'width.px': map.width() + 8,
+    'background-image': 'url(' + map.url() + ')'
+  }"
+  [ngClass]="{'map-left': map.left(), 'map-right': map.right(), 'map-top': map.up(), 'map-bottom': map.down()}">
+  <ng-content></ng-content>
+</div>

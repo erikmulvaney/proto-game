@@ -1,0 +1,17 @@
+<div
+  style="position: relative; color: white; display: inline-block;"
+  [ngStyle]="{
+    'left.px': player.x,
+    'top.px': player.y}"
+  [ngClass]="{'flip': player.direction}"
+  >
+  <proto-sprite
+    [src]="player.sprite.src()"
+    [height]="player.sprite.height()"
+    [width]="player.sprite.width()"
+    [xOffset]="player.sprite.xOffset()"
+    [yOffset]="player.sprite.yOffset()"
+    (mousedown)="onPlayerMouseDown()"
+    (mouseup)="onPlayerMouseUp()">
+  </proto-sprite>
+</div>

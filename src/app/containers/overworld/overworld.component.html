@@ -1,0 +1,10 @@
+<div style="display: flex; align-items: center; justify-content: center;">
+  <proto-background-map [map]="(state$ | async).map">
+    <proto-world-player [player]="(state$ | async).player"></proto-world-player>
+  </proto-background-map>
+</div>
+<div style="display: flex; justify-content: space-between; color: white; width: 800px; margin: auto">
+  <p>Battle Points: </p>
+  <p>Level: </p>
+  <p>Money: </p>
+</div>
