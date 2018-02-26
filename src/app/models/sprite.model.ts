@@ -3,7 +3,7 @@ const spriteMap: any = {
     height: 63,
     width: 36,
     frames: 10,
-    frameDelay: 200,
+    frameDelay: 400,
     loops: true,
     offsets: [
       {x:   -5, y:    0},
@@ -43,7 +43,7 @@ const spriteMap: any = {
     height: 60,
     width: 58,
     frames: 10,
-    frameDelay: 150,
+    frameDelay: 400,
     loops: false,
     offsets: [
       {x:    0, y:    0},

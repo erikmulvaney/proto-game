@@ -4,7 +4,7 @@ import { KeyboardService } from '@services/keyboard.service';
 import { initialMap } from '@models/map.model';
 import { Sprite, idleSprite, runSprite, deadSprite } from '@models/sprite.model';
 
-const BASE_SPEED = 2;
+const BASE_SPEED = 4;
 
 const FACE_LEFT = 1;
 const FACE_RIGHT = 0;
@@ -34,6 +34,7 @@ export class Player {
       {keys: KeyboardService.Up, action: Player.moveUp},
       {keys: KeyboardService.Down, action: Player.moveDown},
       {keys: KeyboardService.Shift, action: Player.run},
+      {keys: KeyboardService.Spacebar, action: Player.die},
     ]);
   }
 
