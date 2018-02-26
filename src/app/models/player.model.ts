@@ -4,7 +4,7 @@ import { KeyboardService } from '@services/keyboard.service';
 import { initialMap } from '@models/map.model';
 import { Sprite, idleSprite, runSprite, deadSprite } from '@models/sprite.model';
 
-const BASE_SPEED = 4;
+const BASE_SPEED = 2;
 
 const FACE_LEFT = 1;
 const FACE_RIGHT = 0;
