@@ -34,7 +34,6 @@ export class Player {
       {keys: KeyboardService.Up, action: Player.moveUp},
       {keys: KeyboardService.Down, action: Player.moveDown},
       {keys: KeyboardService.Shift, action: Player.run},
-      {keys: KeyboardService.Spacebar, action: Player.die},
     ]);
   }
 
